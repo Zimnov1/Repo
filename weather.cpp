@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string weather = " ";
+    string weather  = " ";
     string recommendation, footwear;
     bool jacket = false;
 
@@ -18,7 +18,7 @@ int main() {
         }
     } while (weather != "1" && weather != "2" && weather != "3" && weather != "4" && weather != "5");
 
-    int weatherCode = stoi(weather); // Convert the input to an integer
+    int weatherCode = stoi(weather); 
 
     switch (weatherCode) {
         case 1:
