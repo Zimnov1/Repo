@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string weather  = " ";
+    string weather = " ";
     string recommendation, footwear;
     bool jacket = false;
 
