@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T11:23:49.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="sXhljRvnQoeBZ87fwMR6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T11:29:35.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JxiBFg_SgQM-WiUkX69O" version="22.1.7" type="github">
   <diagram name="Страница — 1" id="_T4WmmwTtc2E52Ya1Eg5">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4HFvtQ4n3yQxWtGylvk-1" target="Y4HFvtQ4n3yQxWtGylvk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-1" value="Beginning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4HFvtQ4n3yQxWtGylvk-2" target="Y4HFvtQ4n3yQxWtGylvk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-2" value="double ha, hb, hc, p&lt;br&gt;int a=6, b=5, c=3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4HFvtQ4n3yQxWtGylvk-4" target="Y4HFvtQ4n3yQxWtGylvk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-4" value="p=(a+b+c)/2&lt;br&gt;ha=round((2/a)*sqrt(p*(p-a)*(p-b)*(p-c))*10)/10&lt;br&gt;hb=round((2/b)*sqrt(p*(p-a)*(p-b)*(p-c))*10)/10&lt;br&gt;hc=round((2/c)*sqrt(p*(p-a)*(p-b)*(p-c))*10)/10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="180" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4HFvtQ4n3yQxWtGylvk-6" target="Y4HFvtQ4n3yQxWtGylvk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-6" value="Output ha, hb, hc" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4HFvtQ4n3yQxWtGylvk-8" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
